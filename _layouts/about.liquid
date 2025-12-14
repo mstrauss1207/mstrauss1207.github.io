@@ -61,7 +61,42 @@ layout: default
       <h2>
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
       </h2>
-      {% include selected_papers.liquid %}
+      <div class="publications">
+        <ol class="bibliography">
+          <li>
+            <div class="title">FlowMAC: Conditional Flow Matching for Audio Coding at Low Bit Rates</div>
+            <div class="author">Nicola Pia, <em>Martin Strauss</em>, Markus Multrus, and Bernd Edler</div>
+            <div class="periodical"><em>ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</em>, 2025</div>
+            <div class="links">
+              <a href="https://doi.org/10.1109/ICASSP49660.2025.10888898" class="btn btn-sm z-depth-0" role="button">DOI</a>
+            </div>
+          </li>
+          <li>
+            <div class="title">Inference-Adaptive Steering of Neural Networks for Real-Time Area-Based Sound Source Separation</div>
+            <div class="author"><em>Martin Strauss</em>, Wolfgang Mack, María Luis Valero, and Okan Köpüklü</div>
+            <div class="periodical"><em>IEEE Signal Processing Letters</em>, Vol. 32, 2025</div>
+            <div class="links">
+              <a href="https://doi.org/10.1109/LSP.2025.3543454" class="btn btn-sm z-depth-0" role="button">DOI</a>
+            </div>
+          </li>
+          <li>
+            <div class="title">SEFGAN: Harvesting the Power of Normalizing Flows and GANs for Efficient High-Quality Speech Enhancement</div>
+            <div class="author"><em>Martin Strauss</em>, Nicola Pia, Nagashree K. S. Rao, and Bernd Edler</div>
+            <div class="periodical"><em>2023 IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA)</em>, 2023</div>
+            <div class="links">
+              <a href="https://doi.org/10.1109/WASPAA58266.2023.10248144" class="btn btn-sm z-depth-0" role="button">DOI</a>
+            </div>
+          </li>
+          <li>
+            <div class="title">DREGON: Dataset and Methods for UAV-Embedded Sound Source Localization</div>
+            <div class="author"><em>Martin Strauss</em>, Pol Mordel, Victor Miguet, and Antoine Deleforge</div>
+            <div class="periodical"><em>2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>, 2018</div>
+            <div class="links">
+              <a href="https://doi.org/10.1109/IROS.2018.8593581" class="btn btn-sm z-depth-0" role="button">DOI</a>
+            </div>
+          </li>
+        </ol>
+      </div>
     {% endif %}
 
     <!-- Social -->
