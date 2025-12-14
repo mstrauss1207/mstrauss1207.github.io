@@ -1,6 +1,7 @@
 # Setup Instructions for mstrauss.com
 
 ## Problem
+
 The `jekyll-scholar` plugin (which provides the `{% bibliography %}` tag) is not working, causing the about page to break when trying to display selected publications.
 
 ## Solution
@@ -12,6 +13,7 @@ You have two deployment options:
 This is already set up! The `.github/workflows/deploy.yml` file has been created.
 
 **Steps:**
+
 1. Go to your GitHub repository: https://github.com/mstrauss1207/mstrauss1207.github.io
 2. Navigate to **Settings** → **Pages**
 3. Under "Build and deployment" → "Source", select **"GitHub Actions"**
@@ -90,4 +92,3 @@ git push
 ```
 
 Then enable GitHub Actions in your repository settings as described above.
-

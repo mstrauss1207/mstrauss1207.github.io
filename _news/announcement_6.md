@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I successfully completed my research internship at the Applied Sciences Group of Microsoft 
+I successfully completed my research internship at the Applied Sciences Group of Microsoft
